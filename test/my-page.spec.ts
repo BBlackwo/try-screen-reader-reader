@@ -13,7 +13,7 @@ describe('my-page', () => {
       waitForStable: true, 
     });
 
-    VoiceoverUtil.readAllPageContents();
+    await VoiceoverUtil.readAllPageContents();
 
     expect(result).toMatchSnapshot();
   });

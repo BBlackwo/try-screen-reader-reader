@@ -1,0 +1,25 @@
+{
+  "name": "try-screen-reader-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server pages",
+    "test": "npm run serve & jest",
+    "test:update": "npm run test -- --updateSnapshot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "@types/jest-environment-puppeteer": "^4.3.1",
+    "http-server": "^0.11.1",
+    "jest": "^24.9.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^1.20.0",
+    "screen-reader-reader": "^0.1.2",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  }
+}
